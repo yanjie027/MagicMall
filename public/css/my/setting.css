@@ -1,0 +1,141 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #efeff4;
+}
+.header {
+  height: 40px;
+  background-color: #fff;
+  line-height: 40px;
+}
+.header .icon {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url("../../img/nav_icon_back@2x.png") no-repeat center;
+  background-size: 10px 18px;
+}
+.header .header_title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #d6d7dc;
+}
+.setting_body {
+  margin: 0;
+  padding: 0;
+}
+.setting_body li {
+  height: 50px;
+  margin-top: 11px;
+  background: #fff;
+  list-style: none;
+  padding-left: 10px;
+  line-height: 50px;
+  position: relative;
+}
+.setting_body li .setting_btn {
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+  background: #ea5404;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  right: 13px;
+}
+.setting_body li .setting_btn .setting_circle {
+  position: absolute;
+  height: 29px;
+  width: 29px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: inset -2px -2px 3px #b9b7b7;
+  left: 0px;
+  top: 0px;
+}
+.setting_body li .setting_btn .active {
+  position: absolute;
+  height: 29px;
+  width: 29px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: inset -2px -2px 3px #b9b7b7;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+}
+.setting_body li .right_icon {
+  position: absolute;
+  width: 10px;
+  height: 18px;
+  background: url("../../img/login_right.png") no-repeat center;
+  background-size: 10px 18px;
+  right: 13px;
+  top: 50%;
+  margin-top: -9px;
+}
+.setting_body li .memory_data {
+  color: #b4b4b4;
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  right: 31px;
+  top: 0;
+}
+.setting_body li:nth-child(4) {
+  text-align: center;
+  margin-top: 24px;
+}
+.gob {
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  Background: rgba(167,167,170,0.5);
+}
+.gob .box_confirm {
+  height: 108px;
+  width: 73%;
+  background: #fff;
+  border-radius: 10px;
+  margin: 278px 13.5% 0 13.5%;
+}
+.gob .box_confirm .box_top {
+  height: 63px;
+  width: 100%;
+  border-bottom: 1px solid #d6d7dc;
+  text-align: center;
+  line-height: 63px;
+  color: #323232;
+  font-size: 12px;
+}
+.gob .box_confirm .box_bottom {
+  width: 100%;
+  line-height: 44px;
+  text-align: center;
+  font-size: 14px;
+  color: #ea5404;
+  overflow: hidden;
+}
+.gob .box_confirm .box_bottom .box_bottom_left {
+  float: left;
+  width: 49.8%;
+  text-align: center;
+  color: #646464;
+  border-right: 1px solid #d6d7dc;
+}
+.gob .box_confirm .box_bottom .box_bottom_right {
+  float: left;
+  width: 49.8%;
+  text-align: center;
+  color: #ea5404;
+}
+.gob.active {
+  display: block;
+}

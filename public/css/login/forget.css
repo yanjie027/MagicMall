@@ -1,0 +1,116 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #efefef;
+  font-family: Microsoft YaHei;
+}
+.header {
+  height: 40px;
+  background-color: #fff;
+  line-height: 40px;
+}
+.header .icon-back {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url("../../img/nav_icon_back@2x.png") no-repeat center;
+  background-size: 12px 18px;
+}
+.header .header_title {
+  display: inline-block;
+  width: 100%;
+  color: #ea5404;
+  text-align: center;
+  border-bottom: 1px solid #d6d7dc;
+}
+.form-list {
+  height: 199px;
+  margin-top: 45px;
+  background: #fff;
+  padding: 0 12px;
+  border-top: 1px solid #d6d7dc;
+  border-bottom: 1px solid #d6d7dc;
+}
+.form-list .form-cell {
+  position: relative;
+  height: 49px;
+  line-height: 49px;
+}
+.form-list .form-cell .form-cell-name {
+  display: inline-block;
+  width: 50px;
+  padding-left: 40px;
+  background: url("../../img/content_ID_icon@2x.png") no-repeat left 6px center;
+  background-size: 25% 50%;
+}
+.form-list .form-cell .cell-verify {
+  position: relative;
+  width: 70px;
+  background: url("../../img/content_verify_icon@2x.png") no-repeat left 8px center;
+  background-size: 16px 50%;
+}
+.form-list .form-cell .cell-passwd {
+  background: url("../../img/content_password_icon@2x.png") no-repeat left 8px center;
+  background-size: 16px 50%;
+}
+.form-list .form-cell .get-verify {
+  outline: none;
+  border: 0;
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  right: 0px;
+  height: 20px;
+  background: #ea5404;
+  color: #fff;
+}
+.form-list .form-cell .get-verify.active {
+  background: #c7c7c7;
+}
+.form-list .form-cell .form-cell-input {
+  height: 49px;
+  border: none;
+  outline: none;
+}
+.form-list .form-cell:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  z-index: 1;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #d6d7dc;
+}
+.form-list .cell-0:after {
+  content: '';
+  width: 0;
+}
+.btn_box {
+  display: -webkit-box;
+  height: 45px;
+  margin-top: 45px;
+  padding: 0 15px;
+}
+.btn_box .btn_login {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c7c7c7;
+  line-height: 40px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.btn_box .btn_login.active {
+  background: #ea5404;
+}

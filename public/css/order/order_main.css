@@ -1,0 +1,209 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #efefef;
+}
+.header {
+  height: 40px;
+  background-color: #fff;
+  line-height: 40px;
+}
+.header .header_title {
+  display: inline-block;
+  width: 100%;
+  color: #323232;
+  text-align: center;
+  border-bottom: 1px solid #d6d7dc;
+}
+.detail {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 40px;
+  bottom: 50px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.detail ._detail {
+  position: relative;
+  padding: 12px;
+  list-style: none;
+  margin-top: 9px;
+  background: #fff;
+  border-bottom: 1px solid #d6d7dc;
+}
+.detail ._detail .padd {
+  height: 93px;
+  overflow: hidden;
+  width: 100%;
+}
+.detail ._detail .padd .detail_left {
+  width: 27.5%;
+  height: 70px;
+  float: left;
+  background: url("../../img/content_img@2x.png") no-repeat center;
+  background-size: 100px 70px;
+}
+.detail ._detail .padd .detail_right {
+  width: 65.8%;
+  float: right;
+}
+.detail ._detail .padd .detail_right .call {
+  overflow: hidden;
+}
+.detail ._detail .padd .detail_right .call .call_name {
+  display: block;
+  float: left;
+  color: #646464;
+  font-size: 14px;
+  line-height: 17px;
+}
+.detail ._detail .padd .detail_right .call .call_time {
+  padding-left: 17px;
+  height: 15px;
+  display: block;
+  line-height: 15px;
+  float: right;
+  font-size: 12px;
+  color: #b4b4b4;
+  background: url("../../img/content_icon@2x.png") no-repeat left 0 top 2.5px;
+  background-size: 10px 10px;
+}
+.detail ._detail .padd .detail_right .text {
+  display: block;
+  font-size: 14px;
+  color: #646464;
+  text-indent: 1.5em;
+  line-height: 17px;
+}
+.detail ._detail .padd .time {
+  font-size: 12px;
+  color: #ff9326;
+  line-height: 11px;
+}
+.detail ._detail .delete {
+  position: absolute;
+  top: 0px;
+  right: -17.6%;
+  width: 17.6%;
+  height: 117px;
+  background: #ff3b30;
+  z-index: 3;
+  color: #fff;
+  font-size: 16px;
+  line-height: 117px;
+  text-align: center;
+}
+.detail ._detail .button {
+  display: block;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2;
+  width: 54px;
+  height: 22px;
+  line-height: 22px;
+  color: #fff;
+  background: #ea5404;
+  border-radius: 3px;
+  font-size: 12px;
+  text-align: center;
+}
+.detail ._detail .button.active {
+  color: #323232;
+  background: #fff;
+}
+.footer {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  z-index: 4;
+}
+.footer .footer_li {
+  float: left;
+  list-style: none;
+  width: 20%;
+  height: 20px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 29px;
+  color: #b4b4b4;
+}
+.footer .footer_li:nth-child(1) {
+  background: url("../../img/bottom_nor_icon04@2x.png") no-repeat center top 7px #fff;
+  background-size: 22px 21px;
+}
+.footer .footer_li:nth-child(2) {
+  background: url("../../img/bottom_press_icon03@2x.png") no-repeat center top 7px #fff;
+  background-size: 22px 21px;
+  color: #ea5404;
+}
+.footer .footer_li:nth-child(3) {
+  background: url("../../img/bottom_icon05@2x.png") no-repeat center top 7px #fff;
+  background-size: 44px 38px;
+}
+.footer .footer_li:nth-child(4) {
+  background: url("../../img/bottom_nor_icon02@2x.png") no-repeat center top 7px #fff;
+  background-size: 22px 21px;
+}
+.footer .footer_li:nth-child(5) {
+  background: url("../../img/bottom_nor_icon01@2x.png") no-repeat center top 7px #fff;
+  background-size: 22px 21px;
+}
+.cover {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.9);
+  z-index: 9;
+}
+.cover .control {
+  position: absolute;
+  bottom: 107px;
+  width: 67.2%;
+  margin: 0 16.4%;
+  overflow: hidden;
+}
+.cover .control span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  line-height: 24px;
+}
+.cover .control .circle_left {
+  padding-top: 94px;
+  float: left;
+  width: 94px;
+  background: url("../../img/publish_btn02@2x.png") no-repeat left 0 top 0;
+  background-size: 94px 94px;
+}
+.cover .control .circle_right {
+  padding-top: 94px;
+  float: right;
+  width: 94px;
+  background: url("../../img/publish_btn01@2x.png") no-repeat left 0 top 0;
+  background-size: 94px 94px;
+}
+.cover .close {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 48px;
+  background: url("../../img/publish_close_icon@2x.png") no-repeat center #242221;
+  background-size: 14px 14px;
+}
+.cover.active {
+  display: block;
+}
